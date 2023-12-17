@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery Demo</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <div class="outer">
+    <div class="thumbnails" >
+        <!-- <div class="slider"> -->
+    <img tabindex="1" id="img-1" src="./image/images.jpg" alt="Sahara" />
+      <img tabindex="2" id="img-2"src="./image/images (1).jpg" alt="Temples" />
+      <img tabindex="3" id="img-3"src="./image/images (2).jpg" alt="city" />
+      <img tabindex="4" id="img-4"src="./image/images (3).jpg" alt="sahara" />
+      <img tabindex="5" id="img-5"src="./image/images (4).jpg" alt="beaches" />
+      <img tabindex="6" id="img-6"src="./image/images (5).jpg" alt="beaches" />
+      <img tabindex="7" id="img-7"src="./image/images (6).jpg" alt="medina" />
+     <img tabindex="8"id="img-8"src="./image/images (7).jpg" alt="city" />
+      <img tabindex="9" id="img-9"src="./image/culture.jpg" alt="fourousya" />
+      <img tabindex="10" id="img-10"src="./image/culture1.jpg" alt="potery" />
+      <img tabindex="11" id="img-11"src="./image/culture2.jpg" alt="medina" />
+      <img tabindex="12" id="img-12"src="./image/culture3.jpg" alt="medina" />
+      <img tabindex="13" id="img-13"src="./image/culture4.jpg" alt="sidi bou said" />
+
+      <img tabindex="15"id="img-14"src="./image/food.jpg" alt="sweet" />
+      <img tabindex="16"id="img-15"src="./image/food2.jpg" alt="kouskous" />
+      <img tabindex="17" id="img-16"src="./image/food4.jpg" alt="lablabi" />
+      <img tabindex="18"id="img-17"src="./image/food6.jpg" alt="donuts" />
+      <img tabindex="19"id="img-18"src="./image/food7.jpg" alt="lablabi" /> 
+      <img tabindex="20"id="img-19"src="./image/food9.jpg" alt="meloukhya" />
+    <img tabindex="21"id="img-20"src="./image/food10.jpg" alt="tunisian dishes" />
+    </div>
+</div>
+<!-- <button onclick="clickLeft()">Left </button>
+<button onclick="clickRight()">Right </button> -->
+    <!-- <div class="navigation-button">
+        <span class="dot active" onclick="changeSlide(0)"></span>
+        <span class="dot" onclick="changeSlide(1)"></span>
+        <span class="dot" onclick="changeSlide(2)"></span>
+        <span class="dot" onclick="changeSlide(3)"></span>
+        <span class="dot" onclick="changeSlide(4)"></span>
+        <span class="dot" onclick="changeSlide(5)"></span>
+        <span class="dot" onclick="changeSlide(6)"></span>
+        <span class="dot" onclick="changeSlide(7)"></span>
+        <span class="dot" onclick="changeSlide(8)"></span>
+        <span class="dot" onclick="changeSlide(9)"></span>
+        <span class="dot" onclick="changeSlide(10)"></span>
+        <span class="dot" onclick="changeSlide(11)"></span>
+        <span class="dot" onclick="changeSlide(12)"></span>
+        <span class="dot" onclick="changeSlide(13)"></span>
+        <span class="dot" onclick="changeSlide(14)"></span>
+        <span class="dot" onclick="changeSlide(15)"></span>
+        <span class="dot" onclick="changeSlide(16)"></span>
+        <span class="dot" onclick="changeSlide(17)"></span>
+        <span class="dot" onclick="changeSlide(18)"></span>
+        <span class="dot" onclick="changeSlide(19)"></span>
+        <span class="dot" onclick="changeSlide(20)"></span>
+        
+
+      </div> -->
+
+
+
+      <!-- <div class="outer">
+        <div class="thumbnails" class="flex-container" id="flex-container">
+            <!-- <div class="slider"> -->
+          <!-- <div class="card"><img id="img-1" src="./image/images.jpg" alt="Salty fries" /></div>
+          <div class="card"><img id="img-2"src="./image/images (1).jpg" alt="Sahara" /></div>
+          <div class="card"><img id="img-3"src="./image/images (2).jpg" alt="Temples" /></div>
+          <div class="card"><img id="img-4"src="./image/images (3).jpg" alt="city" /></div>
+          <div class="card"><img id="img-5"src="./image/images (4).jpg" alt="sahara" /></div>
+          <div class="card"><img id="img-6"src="./image/images (5).jpg" alt="beaches" /></div>
+          <div class="card"><img id="img-7"src="./image/images (6).jpg" alt="beaches" /></div>
+          <div class="card"><img id="img-8"src="./image/images (7).jpg" alt="medina" /></div>
+          <div class="card"><img id="img-9"src="./image/culture.jpg" alt="city" /></div>
+          <div class="card"><img id="img-10"src="./image/culture1.jpg" alt="fourousya" /></div>
+          <div class="card"><img id="img-11"src="./image/culture2.jpg" alt="potery" /></div>
+          <div class="card"><img id="img-12"src="./image/culture3.jpg" alt="medina" /></div>
+          <div class="card"><img id="img-13"src="./image/culture4.jpg" alt="medina" /></div>
+          <div class="card"><img id="img-14"src="./image/food.jpg" alt="sidi bou said" /></div>
+          <div class="card"><img id="img-15"src="./image/food2.jpg" alt="sweet" /></div>
+          <div class="card"><img id="img-16"src="./image/food4.jpg" alt="kouskous" /></div>
+          <div class="card"><img id="img-17"src="./image/food6.jpg" alt="lablabi" /></div>
+          <div class="card"><img id="img-18"src="./image/food7.jpg" alt="donuts" /> </div>
+          <div class="card"><img id="img-19"src="./image/food9.jpg" alt="lablabi" /></div>
+          <div class="card"><img id="img-20"src="./image/food10.jpg" alt="meloukhya" /></div>
+        </div>
+    </div> --> 
+    <h1>Search</h1>
+    <form id="searchForm">
+      <input tabindex="21" name="myQuery"/>
+    </form>
+    <div class="grid-container" id="images"></div>
+
+    <img id="displayImage" src="./image/welcome.jpg" alt="welcome to tunisia" />
+  
+  </body>
+</html>
